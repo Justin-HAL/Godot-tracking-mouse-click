@@ -1,7 +1,6 @@
 extends Node2D
-
-
-# Called when the node enters the scene tree for the first time.
+#event.button_index determines which mouse button. 
+#used with area2d node and a collisionshape2d
 
 
 func _on_area_2d_input_event(viewport, event, shape_idx):
